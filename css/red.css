@@ -1,0 +1,28 @@
+body{
+	background: url('../img/red.jpg');
+	/*Fondo con gradiente
+		background: rgba(0,132,255,1);
+		background: -moz-linear-gradient(45deg, rgba(0,132,255,1) 0%, rgba(32,227,214,1) 100%);
+		background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,132,255,1)), color-stop(100%, rgba(32,227,214,1)));
+		background: -webkit-linear-gradient(45deg, rgba(0,132,255,1) 0%, rgba(32,227,214,1) 100%);
+		background: -o-linear-gradient(45deg, rgba(0,132,255,1) 0%, rgba(32,227,214,1) 100%);
+		background: -ms-linear-gradient(45deg, rgba(0,132,255,1) 0%, rgba(32,227,214,1) 100%);
+		background: linear-gradient(45deg, rgba(0,132,255,1) 0%, rgba(32,227,214,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0084ff', endColorstr='#20e3d6', GradientType=1 );
+	*/
+
+	background-attachment: fixed; /*fija el fondo para que no se modifique mediante el scroll*/
+}
+
+#logo{
+	background: #CA3413;
+}
+
+#menu ul li:hover{
+	background: #CA3413;
+}
+
+.button-more{
+	background:#CA3413;
+	
+}
