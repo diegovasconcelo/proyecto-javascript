@@ -1,18 +1,16 @@
 $(document).ready(function(){
  
   //slider
-  if(window.location.href.indexOf('index')> -1){
+  if(window.location.href.indexOf('index')> -1 || window.location.pathname == '/'){
 	$('.galeria').bxSlider({
 	    mode: 'fade',  //JSON con las opciones
 	    captions: true,
 	    slideWidth: 1200,
 	    pager:true
 	 });
-  }
-  
 
   //Posts
-  if(window.location.href.indexOf('index') > -1){
+
 	  var posts=[
 		  {
 		  	title:'Prueba de titulo 1',
